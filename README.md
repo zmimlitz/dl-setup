@@ -6,6 +6,7 @@ There are several great guides with a similar goal. Some are limited in scope, w
 * [Running a Deep Learning Dream Machine](http://graphific.github.io/posts/running-a-deep-learning-dream-machine/)
 
 ### Table of Contents
+* [OS](#os)
 * [Basics](#basics)
 * [Nvidia Drivers](#nvidia-drivers)
 * [CUDA](#cuda)
@@ -19,6 +20,9 @@ There are several great guides with a similar goal. Some are limited in scope, w
 * [Keras](#keras)
 * [Torch](#torch)
 * [X2Go](#x2go)
+
+###OS
+You'll need to install Ubuntu 14.04
 
 ### Basics
 * First, open a terminal and run the following commands to make sure your OS is up-to-date
@@ -50,9 +54,9 @@ There are several great guides with a similar goal. Some are limited in scope, w
         cat /proc/driver/nvidia/version
         
 ### CUDA
-* Download CUDA 7.5 from [Nvidia](https://developer.nvidia.com/cuda-toolkit). Go to the Downloads directory and install CUDA
+* Download CUDA 7.5 from [Nvidia](https://developer.nvidia.com/cuda-75-downloads-archive). Go to the Downloads directory and install CUDA
 
-        sudo dpkg -i cuda-repo-ubuntu1404*amd64.deb
+        sudo dpkg -i cuda-repo-ubuntu1404*.deb
         sudo apt-get update
         sudo apt-get install cuda
         
